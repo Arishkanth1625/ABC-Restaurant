@@ -28,5 +28,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      working-directory: ABCRestaurant/backend
+      working-directory: ABCRestaurant/backend/fitconnect
       run: mvn clean install -Dmaven.test.skip=true
